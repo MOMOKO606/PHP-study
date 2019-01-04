@@ -1,18 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bianl
- * Date: 2018/12/26
- * Time: 15:29
- */
-
-require_once 'config.php';
+require_once "config.php";
 
 function connectDb(){
-    $conn = mysqli_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PW);
+    $conn = mysqli_connect(HOST,USERNAME,PASSWORD);
     if( !$conn ){
-        die( "can not connect");
+        die("Cannot open Database");
     }
-    mysqli_select_db($conn,'test');
-    return  $conn;
+    mysqli_select_db($conn,"test");
+    return $conn;
 }
+?>

@@ -10,7 +10,7 @@
 <body>
 Hello html<br>
 <?php
-echo "Hello PHP";
+echo phpinfo();
 ?>
 
 </body>

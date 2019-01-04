@@ -18,6 +18,11 @@ if(empty($age)){
 $age = intval($age);
 $conn = connectDb();
 mysqli_query($conn,"INSERT INTO users(name,age) VALUES ('$name','$age')");
-header("Location:allusers.php");
+
+if(mysqli_errno($conn)){
+    echo mysqli_errno($conn);
+}else {
+    header("Location:alluser.php");
+}
 
 

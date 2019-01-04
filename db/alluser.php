@@ -18,6 +18,7 @@ require_once "functions.php";
         <th>id</th>
         <th>姓名</th>
         <th>年龄</th>
+        <th>修改数据 </th>
     </tr>
 <?php
 $conn = connectDb();
@@ -29,7 +30,7 @@ for($i=0; $i<$rows; $i++){
     $id = $result_arr["id"];
     $name = $result_arr["name"];
     $age = $result_arr["age"];
-    echo "<tr><td>$id</td><td>$name</td><td>$age</td></tr>";
+    echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href=\"edituser.php?id=$id\">修改数据</a> </td></tr>";
 }
 ?>
 </table>

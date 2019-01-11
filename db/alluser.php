@@ -15,7 +15,7 @@ require_once "functions.php";
 <a href="adduser.html">添加数据</a>
 <table border="1">
     <tr>
-        <th>id</th><th>姓名</th><th>年龄</th><th>修改</th>
+        <th>id</th><th>姓名</th><th>年龄</th><th>修改</th><th>删除</th>
     </tr>
     <?php
     $conn = ConnectDb();
@@ -26,7 +26,8 @@ require_once "functions.php";
         $id = $arr["id"];
         $name = $arr["name"];
         $age = intval($arr["age"]);
-        echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href='edituser.php?id=$id'>修改</a> </td></tr>";
+        echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href='edituser.php?id=$id'>修改</a> </td>
+               <td><a href='deluser.php?id=$id'>删除</a> </td></tr>";
     }
     ?>
 </table>

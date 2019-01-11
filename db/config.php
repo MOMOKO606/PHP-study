@@ -1,5 +1,5 @@
 <?php
 
-CONST HOST = "localhost";
-CONST USERNAME = "root";
-CONST PASSWORD = "";
+define("HOST","Localhost");
+define("USERNAME","root");
+define("PASSWORD","");

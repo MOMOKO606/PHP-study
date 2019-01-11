@@ -1,30 +1,24 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bianl
- * Date: 2019/1/4
- * Time: 18:53
- */
 require_once "functions.php";
 
-if( empty($_POST["id"])){
-    die("Empty id");
+if(!isset($_POST['id']) or empty($_POST['id'])){
+    die("Empty id!");
+}else{
+    $id = intval($_POST["id"]);
 }
-if(empty($_POST["name"])){
-    die("Empty name");
+if(!isset($_POST['name']) or empty($_POST['name'])){
+    die("Empty name!");
+}else{
+    $name = $_POST["name"];
 }
-if(empty($_POST["age"])){
-    die("Empty age");
+if(!isset($_POST['age']) or empty($_POST['age'])){
+    die("Empty age!");
+}else{
+    $age = intval($_POST["age"]);
 }
-$id = intval($_POST["id"]);
-$name = $_POST["name"];
-$age = intval($_POST["age"]);
 
-echo "$age<br>";
-$conn = connectDb();
-$new = mysqli_query($conn,"UPDATE users SET name = '$name', age = $age WHERE id = $id");
-if(mysqli_errno($conn)){
-    echo mysqli_errno($conn);
-}else {
-    header("Location:alluser.php");
-}
+$conn = ConnectDb();
+mysqli_query($conn,"UPDATE users SET id = '$id', name = '$name', age = '$age' WHERE users.id = $id ");
+
+header("Location:alluser.php");
+

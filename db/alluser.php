@@ -9,30 +9,30 @@ require_once "functions.php";
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>展示数据库</title>
 </head>
 <body>
-<a href = "adduser.html">添加用户</a>
-<table style = 'text-align: left;' border = '1' >
+<a href="adduser.html">添加数据</a>
+<table border="1">
     <tr>
-        <th>id</th>
-        <th>姓名</th>
-        <th>年龄</th>
-        <th>修改数据 </th>
+        <th>id</th><th>姓名</th><th>年龄</th><th>修改</th>
     </tr>
-<?php
-$conn = connectDb();
-$result = mysqli_query($conn,"SELECT * FROM users ORDER BY id DESC");
-$rows = mysqli_num_rows($result);
-
-for($i=0; $i<$rows; $i++){
-    $result_arr = mysqli_fetch_assoc($result);
-    $id = $result_arr["id"];
-    $name = $result_arr["name"];
-    $age = $result_arr["age"];
-    echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href=\"edituser.php?id=$id\">修改数据</a> </td></tr>";
-}
-?>
+    <?php
+    $conn = ConnectDb();
+    $result = mysqli_query($conn,"SELECT * FROM users");
+    $rows = mysqli_num_rows($result);
+    for($i=0; $i<$rows; $i++){
+        $arr = mysqli_fetch_assoc($result);
+        $id = $arr["id"];
+        $name = $arr["name"];
+        $age = intval($arr["age"]);
+        echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href='edituser.php?id=$id'>修改</a> </td></tr>";
+    }
+    ?>
 </table>
 </body>
 </html>
+
+
+
+

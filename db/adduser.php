@@ -1,28 +1,17 @@
 <?php
 require_once "functions.php";
-if( !isset($_POST["name"]) ){
-    die("Cannot get name");
+
+if( !isset($_POST["name"]) or empty($_POST["name"])){
+    die("No name has been entered!");
 }
-if( !isset($_POST["age"]) ){
-    die("Cannot get age");
+if( !isset($_POST["age"]) or empty($_POST["age"])){
+    die("No age has been entered!");
 }
 
 $name = $_POST["name"];
-if(empty($name)){
-    die("name is empty");
-}
-$age = $_POST["age"];
-if(empty($age)){
-    die("age is empty");
-}
-$age = intval($age);
-$conn = connectDb();
-mysqli_query($conn,"INSERT INTO users(name,age) VALUES ('$name','$age')");
+$age = intval($_POST["age"]);
 
-if(mysqli_errno($conn)){
-    echo mysqli_errno($conn);
-}else {
-    header("Location:alluser.php");
-}
-
+$conn = ConnectDb();
+mysqli_query($conn,"INSERT INTO users (name, age) VALUES ( '$name', '$age') ");
+header("Location:alluser.php");
 

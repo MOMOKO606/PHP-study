@@ -1,46 +1,35 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bianl
- * Date: 2019/1/4
- * Time: 18:13
- */
 require_once "functions.php";
 
-//  取得ID
-if(empty ($_GET["id"])){
-    die("id is empty");
-}
-$id = $_GET["id"];
-$id = intval($id);
-
-
-// 根据id在数据库中得到相应的信息
-$conn = connectDb();
-$result = mysqli_query($conn,"SELECT * FROM users WHERE id = $id ");
+$id = $_GET['id'];
+$conn = ConnectDb();
+$result = mysqli_query($conn,"SELECT * FROM users WHERE id=$id");
 $arr = mysqli_fetch_assoc($result);
-
-$name = $arr["name"];
-$age = $arr["age"];
+$name = $arr['name'];
+$age = $arr['age'];
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>修改数据</title>
 </head>
 <body>
-<form action = "edituser_server.php" method="post">
-    <div>修改id
-        <input type = "text" name = "id" value = <?php echo "$id";?>>
+<form action="edituser_server.php" method="post">
+    <div>修改ID
+        <input type="text" name="id" value=<?php echo"$id"; ?>>
     </div>
     <div>修改姓名
-        <input type = "text" name = "name" value = <?php echo "$name";?>>
+        <input type="text" name="name" value=<?php echo"$name"; ?>>
     </div>
     <div>修改年龄
-        <input type = "text" name = "age" value = <?php echo "$age";?>>
+        <input type="text" name="age" value=<?php echo"$age"; ?>>
     </div>
-    <input type = "submit",value = "提交">
+    <input type="submit" value="提交">
 </form>
+
+</body>
 </html>

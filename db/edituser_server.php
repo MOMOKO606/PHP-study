@@ -1,24 +1,20 @@
 <?php
+
 require_once "functions.php";
 
-if(!isset($_POST['id']) or empty($_POST['id'])){
-    die("Empty id!");
-}else{
-    $id = intval($_POST["id"]);
+if(!isset($_POST["id"]) || empty($_POST["id"])){
+    die ("No id information");
 }
-if(!isset($_POST['name']) or empty($_POST['name'])){
-    die("Empty name!");
-}else{
-    $name = $_POST["name"];
+if(!isset($_POST["name"]) || empty($_POST["name"])){
+    die ("No name information");
 }
-if(!isset($_POST['age']) or empty($_POST['age'])){
-    die("Empty age!");
-}else{
-    $age = intval($_POST["age"]);
+if(!isset($_POST["age"]) || empty($_POST["age"])){
+    die ("No age information");
 }
+$id = intval($_POST["id"]);
+$name = $_POST["name"];
+$age = $_POST["age"];
 
 $conn = ConnectDb();
-mysqli_query($conn,"UPDATE users SET id = '$id', name = '$name', age = '$age' WHERE users.id = $id ");
-
+mysqli_query($conn,"UPDATE users SET name = '$name', age = '$age' WHERE users.id = $id");
 header("Location:alluser.php");
-

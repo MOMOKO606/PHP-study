@@ -12,20 +12,23 @@ require_once "functions.php";
     <title>数据库展示</title>
 </head>
 <body>
-    <a href="adduser.html">添加用户</a>
-    <table border="2">
-        <tr><td>id</td><td>姓名</td><td>年龄</td><td>修改</td><td>删除</td></tr>
+    <a href="adduser.html">点击添加用户</a>
+    <table border="1">
+        <tr>
+            <th>id</th><th>姓名</th><th>年龄</th><th>修改</th><th>删除</th>
+        </tr>
         <?php
         $conn = ConnectDb();
         $result = mysqli_query($conn,"SELECT * FROM users");
         $rows = mysqli_num_rows($result);
-        for($i=0;$i<$rows;$i++){
+        for( $i = 0;$i < $rows; $i++ ){
             $arr = mysqli_fetch_assoc($result);
             $id = intval($arr["id"]);
             $name = $arr["name"];
             $age = $arr["age"];
-            echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href='edituser.php?id=$id'>修改</a></td>
-                   <td><a href='deluser.php?id=$id'>删除</a></td></tr>";
+            echo "<tr><td>$id</td><td>$name</td><td>$age</td>
+                  <td><a href='edituser.php?id=$id'>修改</a></td>
+                  <td><a href='deluser.php?id=$id'>删除</a></td></tr>";
         }
         ?>
     </table>

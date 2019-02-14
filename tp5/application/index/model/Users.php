@@ -11,6 +11,6 @@ use think\Model;
 class Users extends Model
 {
     // 设置数据表
-    protected $table = 'ssjss';
+    protected $table = 'users';
 }
 

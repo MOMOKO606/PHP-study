@@ -16,6 +16,8 @@ class UsersController extends Controller
     public function add()
    {
        $user = Users::get(1);
-       dump($user);
+       echo $user -> id."<br />";
+       echo $user -> name."<br />";
+       echo $user -> age."<br />";
     }
 }

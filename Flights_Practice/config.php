@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: bianl
- * Date: 2019/1/24
- * Time: 11:56
+ * Date: 2019/2/18
+ * Time: 15:20
+ * Configuration file: define the default host, username & password, database.
  */
-
-//  定义服务器地址、用户名和密码。
 define("HOST","Localhost");
 define("USERNAME","root");
 define("PASSWORD","");
+define("DATABASE","py2db");

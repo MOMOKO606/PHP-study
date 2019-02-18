@@ -12,7 +12,7 @@ require_once "config.php";
 
 function ConnectDb(){
     //  Connect to the database.
-    //  Input: HOST,USERNAME,PASSWORD(global var).
+    //  Input: HOST,USERNAME,PASSWORD,DATABASE(global var).
     //  Output: handles $conn if succeed, error message otherwise.
 
     $conn = mysqli_connect(HOST,USERNAME,PASSWORD);

@@ -1,0 +1,88 @@
+---------------------------------------------------------------
+[ 2019-02-13T10:12:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/index
+[运行时间：0.119906s] [吞吐率：8.34req/s] [内存消耗：1,309.34kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=147',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-13T10:12:19+08:00 ] 0.0.0.0 GET localhost/tp5/public/
+[运行时间：0.077080s] [吞吐率：12.97req/s] [内存消耗：1,308.97kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=148',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-13T10:12:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/
+[运行时间：0.074024s] [吞吐率：13.51req/s] [内存消耗：1,309.63kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=149',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

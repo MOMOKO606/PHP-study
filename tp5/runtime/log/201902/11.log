@@ -1,0 +1,2004 @@
+---------------------------------------------------------------
+[ 2019-02-11T12:05:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/index_controller.php
+[运行时间：0.068026s] [吞吐率：14.70req/s] [内存消耗：1,138.77kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index_controller.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=56',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T12:10:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/IndexController/index
+[运行时间：0.081391s] [吞吐率：12.29req/s] [内存消耗：1,139.88kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'IndexController',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=57',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T12:10:56+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/index
+[运行时间：0.059221s] [吞吐率：16.89req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=58',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:04:29+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users/search
+[运行时间：0.085045s] [吞吐率：11.76req/s] [内存消耗：1,140.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=59',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:06:45+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users/search
+[运行时间：0.070629s] [吞吐率：14.16req/s] [内存消耗：1,141.61kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:07:13+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.068989s] [吞吐率：14.50req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=61',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:07:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/db
+[运行时间：0.095999s] [吞吐率：10.42req/s] [内存消耗：1,323.47kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=62',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->db[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002809s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist[C:\xampp\htdocs\tp5\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-02-11T14:07:52+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/db
+[运行时间：0.066740s] [吞吐率：14.98req/s] [内存消耗：1,140.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=63',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:09:16+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.067810s] [吞吐率：14.75req/s] [内存消耗：1,140.99kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=64',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:09:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.073615s] [吞吐率：13.58req/s] [内存消耗：1,141.66kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=65',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:10:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.072237s] [吞吐率：13.84req/s] [内存消耗：1,141.64kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=66',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:10:12+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.059906s] [吞吐率：16.69req/s] [内存消耗：1,141.64kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=67',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:12:31+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/UsersController/search
+[运行时间：0.077540s] [吞吐率：12.90req/s] [内存消耗：1,139.88kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UsersController',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=68',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:12:44+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/user/search
+[运行时间：0.077711s] [吞吐率：12.87req/s] [内存消耗：1,139.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:13:02+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.073414s] [吞吐率：13.62req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:13:17+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/users
+[运行时间：0.064255s] [吞吐率：15.56req/s] [内存消耗：1,139.43kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'users',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:13:51+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/useers
+[运行时间：0.066713s] [吞吐率：14.99req/s] [内存消耗：1,139.63kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'useers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:13:58+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users
+[运行时间：0.066046s] [吞吐率：15.14req/s] [内存消耗：1,140.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=73',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:16:59+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index/index
+[运行时间：0.074533s] [吞吐率：13.42req/s] [内存消耗：1,105.60kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=74',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:17:12+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.071068s] [吞吐率：14.07req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:25:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.063184s] [吞吐率：15.83req/s] [内存消耗：1,106.47kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:25:31+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.068844s] [吞吐率：14.53req/s] [内存消耗：1,140.98kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:35:35+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php
+[运行时间：0.081134s] [吞吐率：12.33req/s] [内存消耗：1,139.32kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:35:45+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php
+[运行时间：0.052475s] [吞吐率：19.06req/s] [内存消耗：1,106.07kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=79',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:38:02+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php
+[运行时间：0.063936s] [吞吐率：15.64req/s] [内存消耗：1,106.07kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php
+[运行时间：0.057290s] [吞吐率：17.46req/s] [内存消耗：1,106.07kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=81',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:38:19+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users
+[运行时间：0.068367s] [吞吐率：14.63req/s] [内存消耗：1,140.04kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=82',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:39:38+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users
+[运行时间：0.075006s] [吞吐率：13.33req/s] [内存消耗：1,140.70kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=83',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:39:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/users
+[运行时间：0.060897s] [吞吐率：16.42req/s] [内存消耗：1,140.70kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=84',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:39:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.061875s] [吞吐率：16.16req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:39:59+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/index
+[运行时间：0.058625s] [吞吐率：17.06req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=86',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:40:31+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.065778s] [吞吐率：15.20req/s] [内存消耗：1,140.04kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:52:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.074949s] [吞吐率：13.34req/s] [内存消耗：1,162.89kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:53:04+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/index
+[运行时间：0.060064s] [吞吐率：16.65req/s] [内存消耗：1,105.58kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=89',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:53:17+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.067958s] [吞吐率：14.71req/s] [内存消耗：1,162.23kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=90',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:54:51+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.073763s] [吞吐率：13.56req/s] [内存消耗：1,162.89kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:55:51+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.058562s] [吞吐率：17.08req/s] [内存消耗：1,142.38kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=92',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: convert[C:\xampp\htdocs\tp5\thinkphp\library\think\App.php:453]
+---------------------------------------------------------------
+[ 2019-02-11T14:57:49+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.072286s] [吞吐率：13.83req/s] [内存消耗：1,163.14kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=94',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:58:33+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.065119s] [吞吐率：15.36req/s] [内存消耗：1,142.38kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=95',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: convert[C:\xampp\htdocs\tp5\thinkphp\library\think\App.php:453]
+---------------------------------------------------------------
+[ 2019-02-11T14:58:59+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.061487s] [吞吐率：16.26req/s] [内存消耗：1,162.89kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=96',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T14:59:51+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.061832s] [吞吐率：16.17req/s] [内存消耗：1,140.70kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=97',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:05:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.083601s] [吞吐率：11.96req/s] [内存消耗：1,140.70kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=98',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:05:12+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users
+[运行时间：0.061188s] [吞吐率：16.34req/s] [内存消耗：1,140.70kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=99',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:05:21+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.081195s] [吞吐率：12.32req/s] [内存消耗：1,140.13kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:08:16+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/search
+[运行时间：0.072967s] [吞吐率：13.70req/s] [内存消耗：1,141.13kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=101',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:08:21+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.068463s] [吞吐率：14.61req/s] [内存消耗：1,140.41kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=102',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:10:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.074747s] [吞吐率：13.38req/s] [内存消耗：1,105.42kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=103',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:10:59+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.082115s] [吞吐率：12.18req/s] [内存消耗：1,140.80kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=104',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:19:42+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.079262s] [吞吐率：12.62req/s] [内存消耗：1,139.67kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=105',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:19:56+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.057995s] [吞吐率：17.24req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=106',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:19:57+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.058953s] [吞吐率：16.96req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=107',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.078776s] [吞吐率：12.69req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=108',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:12+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.060328s] [吞吐率：16.58req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:13+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.063490s] [吞吐率：15.75req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=110',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:13+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.067317s] [吞吐率：14.86req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=111',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:13+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.063742s] [吞吐率：15.69req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=112',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:14+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.069685s] [吞吐率：14.35req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:22:14+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.062639s] [吞吐率：15.96req/s] [内存消耗：1,140.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:23:58+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Test/bianlong
+[运行时间：0.090513s] [吞吐率：11.05req/s] [内存消耗：1,306.65kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=115',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->bianlong[ C:\xampp\htdocs\tp5\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:24:49+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.087064s] [吞吐率：11.49req/s] [内存消耗：1,172.25kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=116',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:25:57+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Test/bianlong
+[运行时间：0.071849s] [吞吐率：13.92req/s] [内存消耗：1,171.91kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=117',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:26:09+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.086616s] [吞吐率：11.55req/s] [内存消耗：1,171.91kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=118',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:26:24+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/test/bianlong
+[运行时间：0.064280s] [吞吐率：15.56req/s] [内存消耗：1,307.56kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'bianlong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=119',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->bianlong[ C:\xampp\htdocs\tp5\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:27:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.081346s] [吞吐率：12.29req/s] [内存消耗：1,407.96kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=120',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Users->add[ C:\xampp\htdocs\tp5\application\index\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'application\index\model\Users' not found[C:\xampp\htdocs\tp5\application\index\controller\Users.php:17]
+---------------------------------------------------------------
+[ 2019-02-11T15:28:12+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/Test/bianlong
+[运行时间：0.074543s] [吞吐率：13.42req/s] [内存消耗：1,137.21kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Test',
+    1 => 'bianlong',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=121',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:30:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/Users/add
+[运行时间：0.062725s] [吞吐率：15.94req/s] [内存消耗：1,137.17kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Users',
+    1 => 'add',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=122',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T15:30:16+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.199851s] [吞吐率：5.00req/s] [内存消耗：2,305.60kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Users->add[ C:\xampp\htdocs\tp5\application\index\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003761s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist[C:\xampp\htdocs\tp5\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-02-11T15:37:30+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.077263s] [吞吐率：12.94req/s] [内存消耗：1,307.46kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=124',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Users->add[ C:\xampp\htdocs\tp5\application\index\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T16:52:44+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/index
+[运行时间：0.081357s] [吞吐率：12.29req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=126',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T16:52:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/index/index
+[运行时间：0.083753s] [吞吐率：11.94req/s] [内存消耗：1,105.55kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=127',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\xampp\htdocs\tp5\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T16:53:02+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.085522s] [吞吐率：11.69req/s] [内存消耗：1,306.70kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=128',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UsersController->add[ C:\xampp\htdocs\tp5\application\index\controller\UsersController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-11T17:02:00+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.168139s] [吞吐率：5.95req/s] [内存消耗：2,306.67kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=129',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UsersController->add[ C:\xampp\htdocs\tp5\application\index\controller\UsersController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011884s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist[C:\xampp\htdocs\tp5\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-02-11T17:03:48+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.146414s] [吞吐率：6.83req/s] [内存消耗：2,286.28kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=130',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UsersController->add[ C:\xampp\htdocs\tp5\application\index\controller\UsersController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011860s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.028831s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2019-02-11T17:09:17+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Users/add
+[运行时间：0.141398s] [吞吐率：7.07req/s] [内存消耗：2,286.48kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Users',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.4375068339543820000.1545480756457.3933; Phpstorm-171522f2=95d6887c-877e-4afc-8d1c-c976a446170d; pgv_pvi=6507047936; _xsrf=2|0e01e217|cc3af0aa6b236c07168a2f90c8826cee|1548647686; username-localhost-8888="2|1:0|10:1549078438|23:username-localhost-8888|44:MTk0M2NhZjE2OGMxNDUzMjhlMTM0OTQ5NzQzOTFlMmE=|81984c80b434ca370f76d45ed61a9c5fc59cc1f7cebe8a7b44234779b81564e8"; monitor_count=131',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UsersController->add[ C:\xampp\htdocs\tp5\application\index\controller\UsersController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010178s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssjss` [ RunTime:0.030495s ]
+[ sql ] [ SQL ] SELECT * FROM `ssjss` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000629s ]

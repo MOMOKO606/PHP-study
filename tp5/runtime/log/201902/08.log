@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-02-08T16:36:57+08:00 ] 0.0.0.0 GET localhost/tp5/public/index.php/index/Index/db
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013859s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM users [ RunTime:0.000642s ]

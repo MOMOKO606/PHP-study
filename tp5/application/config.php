@@ -141,7 +141,7 @@ return [
         // 标签库标签结束标记
         'taglib_end'   => '}',
         // 设置开启模板布局
-        'layout_on' => true,
+        'layout_on' => false,
         // 模板布局默认文件名为layout.html
         'layout_name'=>'layout',
     ],
